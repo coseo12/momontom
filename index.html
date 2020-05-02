@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momontom</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-box">
+        <!-- <div class="reset">
+          <button type="button">RESET</button>
+        </div> -->
+        <div class="weather">Weather loading...</div>
+      </div>
+      <div class="clock-box"></div>
+      <div class="input-box">
+        <div class="name"></div>
+        <input type="text" name="name" id="name" placeholder="Add user name" />
+      </div>
+      <div class="todo-box">
+        <div class="add-box">
+          <input type="text" name="add" id="add" placeholder="Add Task" />
+        </div>
+        <div class="title">
+          <div class="title-pending">PENDING</div>
+          <div class="title-finished">FINISHED</div>
+        </div>
+        <div class="pending-box">
+          <ul class="pending"></ul>
+        </div>
+        <div class="finished-box">
+          <ul class="finished"></ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
