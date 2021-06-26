@@ -4,7 +4,7 @@ V2 - 2022
 
 ## TODO
 
-- [ ] Login
+- [x] Login
 - [ ] Clock
 - [ ] Quotes and Background
 - [ ] To do list

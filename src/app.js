@@ -1,14 +1,18 @@
-import background from "./js/background.js";
-import clock from "./js/clock.js";
-import todo from "./js/todo.js";
-import userAdd from "./js/userAdd.js";
-import weather from "./js/weather.js";
+import Storage from './js/storage.js';
+import Login from './js/login.js';
 
-function init() {
-  background.init();
-  clock.init();
-  userAdd.init();
-  todo.init();
-  weather.init();
+class App {
+  constructor(Storage, Login) {
+    this.storage = new Storage();
+    this.login = new Login(this.storage);
+  }
+  init() {
+    if (this.storage.getUser()) {
+      this.login.hidden();
+    }
+  }
 }
-init();
+
+const app = new App(Storage, Login);
+
+app.init();
