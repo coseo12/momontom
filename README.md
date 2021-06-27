@@ -6,6 +6,6 @@ V2 - 2022
 
 - [x] Login
 - [x] Clock
-- [ ] Quotes and Background
+- [x] Quotes and Background
 - [ ] To do list
 - [ ] Weather

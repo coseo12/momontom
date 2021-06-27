@@ -1,10 +1,14 @@
-export default {
+export default class Background {
+  constructor() {
+    this.body = document.querySelector('body');
+    this.bgImg = document.createElement('img');
+    this.body.appendChild(this.bgImg);
+  }
   setBackground() {
-    const body = document.querySelector("body");
     const img = Math.floor(Math.random() * 7);
-    body.style.backgroundImage = `url('src/img/${img}.jpg')`;
-  },
+    this.bgImg.src = `src/img/${img}.jpg`;
+  }
   init() {
     this.setBackground();
-  },
-};
+  }
+}
