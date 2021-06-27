@@ -7,5 +7,5 @@ V2 - 2022
 - [x] Login
 - [x] Clock
 - [x] Quotes and Background
-- [ ] To do list
+- [x] To do list
 - [ ] Weather
