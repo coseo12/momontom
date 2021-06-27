@@ -5,7 +5,7 @@ V2 - 2022
 ## TODO
 
 - [x] Login
-- [ ] Clock
+- [x] Clock
 - [ ] Quotes and Background
 - [ ] To do list
 - [ ] Weather
